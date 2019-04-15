@@ -10,6 +10,28 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
+    <module>jobs/process_mr/tps3038/sparkwithfileparquet_0.1</module>
+    <module>jobs/process_mr/tps3038/sparkwithfileparquetwithouttimestamp_0.1</module>
+    <module>jobs/process_storm/sparkstrwithhivewithouttimestamp_0.1</module>
+    <module>jobs/process/test_0.1</module>
+    <module>jobs/process_mr/tMatchIndex_jobs_local/job5_tmatchpredirct_local_0.1</module>
+    <module>jobs/process_mr/tps3038/sparkwithredshiftwithtimestamp_0.1</module>
+    <module>jobs/process_storm/testredshiftsparkstrwithouttimestamp_0.1</module>
+    <module>jobs/process_mr/spark701_0.1</module>
+    <module>jobs/process_mr/tMatchIndex_jobs_local/job1_tmatchpairing_0.1</module>
+    <module>jobs/process_mr/tps3038/testredshift_0.1</module>
+    <module>jobs/process_mr/sparkwithtsqlrow_0.1</module>
+    <module>jobs/process_mr/sparkwithhivewithouttimestamp_0.1</module>
+    <module>jobs/process_mr/tps3038/testredshiftwithouttimestamp_0.1</module>
+    <module>jobs/process_mr/tps3038/readredshift_0.1</module>
+    <module>jobs/process_mr/sparkwithhivewithtimestamp_0.1</module>
+    <module>jobs/process_storm/testredshiftsparkstr_0.1</module>
+    <module>jobs/process_mr/readhive_0.1</module>
+    <module>jobs/process_storm/sparkstrwithfileparquetwithtimestamp_0.1</module>
+    <module>jobs/process_storm/sparkstrwithredshiftwithtimestamp_0.1</module>
+    <module>jobs/process_storm/ss701_0.1</module>
+    <module>jobs/process_storm/sparkstrwithtsqlrow_0.1</module>
+    <module>jobs/process_storm/sparkstrwithhivewithtimestamp_0.1</module>
   </modules>
   <properties>
     <talend.project.name>TPS3038</talend.project.name>

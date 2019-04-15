@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection DatabaseType="Hive" DbmsId="hive_id" DriverClass="org.apache.hadoop.hive.jdbc.HiveDriver" NullChar="" Port="10000" ProductId="HIVE" SID="default" SQLMode="false" ServerName="tal-qa209.talend.lan" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:hive2://tal-qa209.talend.lan:10000/default;principal=hive/_HOST@CDH.COM;ssl=true;sslTrustStore=C:/ikulish/kerberos/CDH512/tal-qa208.truststore;trustStorePassword=encrypted" Username="" dataPackage="_M1WNMF0SEemZo8RVQbtwog" dbVersionString="STANDALONE" id="_Of2HgF0PEemZo8RVQbtwog" label="cdh512_HIVE" name="cdh512_HIVE" xmi:id="_OhzPUF0PEemZo8RVQbtwog">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_TqJCIF0PEemZo8RVQbtwog"/>
+    <taggedValue tag="DB ProductName" value="" xmi:id="_M3TVAF0SEemZo8RVQbtwog"/>
+    <taggedValue tag="DB ProductVersion" value="" xmi:id="_M3TVAV0SEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_USE_YARN" value="true" xmi:id="_OhzPUV0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="tal-qa208.talend.lan:8030" xmi:id="_OhzPUl0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_USEKEYTAB" value="true" xmi:id="_OhzPU10PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true" xmi:id="_OhzPVF0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://nameservice1" xmi:id="_OhzPVV0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="" xmi:id="_OhzPVl0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_2bS-0F0NEemZo8RVQbtwog" xmi:id="_OhzPV10PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="hdfs/_HOST@CDH.COM" xmi:id="_OhzPWF0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_HBASE_VERSION" value="Cloudera_CDH5_12" xmi:id="_OhzPWV0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_JOB_TRACKER_URL" value="tal-qa208.talend.lan:8032" xmi:id="_OhzPWl0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="tal-qa210.talend.lan:10020" xmi:id="_OhzPW10PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDH5_12" xmi:id="_OhzPXF0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true" xmi:id="_OhzPXV0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_DB_SERVER" value="nameservice1" xmi:id="_OhzPXl0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_DB_TYPE" value="Hive" xmi:id="_OhzPX10PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_AUTHENTICATION_USE_MAPRTICKET" value="false" xmi:id="_OhzPYF0PEemZo8RVQbtwog"/>
+    <parameters key="HIVE_AUTHENTICATION_HIVEPRINCIPLA" value="hive/_HOST@CDH.COM" xmi:id="_OhzPYV0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@CDH.COM" xmi:id="_OhzPYl0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="CLOUDERA" xmi:id="_OhzPY10PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_VERSION" value="Cloudera_CDH5_12" xmi:id="_OhzPZF0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value="automation@CDH.COM" xmi:id="_OhzPZV0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_DISTRIBUTION" value="CLOUDERA" xmi:id="_OhzPZl0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_USE_KRB" value="true" xmi:id="_OhzPZ10PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="CLOUDERA" xmi:id="_OhzPaF0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user" xmi:id="_OhzPaV0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="hdfs/_HOST@CDH.COM" xmi:id="_OhzPal0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_DB_PRODUCT" value="HIVE" xmi:id="_OhzPa10PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_KEYTAB" value="C:/ikulish/kerberos/CDH512/tal-qa208.keytab" xmi:id="_OhzPbF0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false" xmi:id="_OhzPbV0PEemZo8RVQbtwog"/>
+    <parameters key="HIVE_AUTHENTICATION_METASTOREURL" value="thrift://tal-qa209.talend.lan:9083" xmi:id="_OhzPbl0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false" xmi:id="_OhzPb10PEemZo8RVQbtwog"/>
+    <parameters key="HIVE_SERVER_VERSION" value="HIVE2" xmi:id="_OhzPcF0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE" xmi:id="_OhzPcV0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="_ThQL4F0PEemZo8RVQbtwog"/>
+    <parameters key="HIVE_AUTHENTICATION_DRIVERCLASS" value="" xmi:id="_TlJ0cF0PEemZo8RVQbtwog"/>
+    <parameters key="HIVE_AUTHENTICATION_USERNAME" value="" xmi:id="_TlJ0cV0PEemZo8RVQbtwog"/>
+    <parameters key="HIVE_AUTHENTICATION_PASSWORD" value="" xmi:id="_TlKbgF0PEemZo8RVQbtwog"/>
+    <parameters key="HIVE_EXECUTION_ENGINE" xmi:id="_TlpjsF0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_USE_SSL" value="true" xmi:id="_TmIr4l0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_NEED_CLIENT_AUTH" value="false" xmi:id="_TmIr410PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_DISABLE_CBC_PROTECTION" value="false" xmi:id="_TmIr5F0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value="C:/ikulish/kerberos/CDH512/tal-qa208.truststore" xmi:id="_TrY_UF0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value="YdTnhbqBAdo=" xmi:id="_TrY_UV0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_HIVE_THRIFTPORT" value="9083" xmi:id="_TsE70F0PEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_SSL_KEY_STORE_PATH" value="" xmi:id="_KjthwF0SEemZo8RVQbtwog"/>
+    <parameters key="CONN_PARA_KEY_SSL_KEY_STORE_PASSWORD" value="" xmi:id="_KjthwV0SEemZo8RVQbtwog"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema dataManager="_OhzPUF0PEemZo8RVQbtwog" name="default" xmi:id="_M1WNMF0SEemZo8RVQbtwog"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9cbe0b7a-507d-4c92-a99e-aa1bc246c7de"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Y0Uh4JrgFUtHgVtF8nAXrJ+ZnqEYQUd2HKkISMNgph+qJcZ44wuncCGu7I6Lvzd5FUAeR9r3Z0rk
+++QrklAE0Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3c900268-794a-4dfc-9222-1a5de2ee9249"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>p46+rPbpqc+RN7MbyfGuuLE8uOhPJ6WKOk/lEcj3Ygsf9l8QCRGFuDnkDDmHrKaNiQUZc5AtFJGZ
+VxEX4SaUDQ==</DigestValue></Reference></SignedInfo><SignatureValue>Tx3hsw+nmbVow9qMDnbypP8+R4+N+mcA8km8pYujt9mtpezYk0PmJFQrFOMyc6Z2bN3orU31RcD6
+vZwOrI8JtzNShLkinrwdYZHbnjoZlU4XHBmQGRlCXNESxJMNkWd6hLL4tpoe7LKUjQugdoaToBp/
+bXC65PM6VPd7KOr2jfMqr60TnYJQV0VdJ2myWXlUD7dTbrN9QLXuTUNZFARouptdiXKoAuDM4BO9
+P1mFcSESAYcnBHQTBMbYp3hQGRh+LBcsgNAPxx6321/Uh91hXQD+91iBhsXRz7Sj+HJywL6VAKek
+iJKvRozRqY4usspcqmMZm+SHocWA6NGAfjSBww==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3c900268-794a-4dfc-9222-1a5de2ee9249" Target="#_9cbe0b7a-507d-4c92-a99e-aa1bc246c7de"><Timestamp>2019-04-15 16:48:30</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
